@@ -1,0 +1,10 @@
+# macOS
+.DS_Store
+
+# Build artifacts
+build/
+*.o
+outDebug
+
+# VSCode
+.vscode/
