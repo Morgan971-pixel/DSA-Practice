@@ -17,13 +17,8 @@ int isLoop(struct Node *f)
         q = q->next; // Move q by two
         if (q != NULL)
             q = q->next;
-    } while (p && q);
-    return p == q ? 1 : 0;
-}
-if p
-    == q;
-return true;
-else return false;
+    } while (p && q && p != q);
+    return (p == q) ? 1 : 0;
 }
 
 int main()
@@ -53,3 +48,6 @@ int main()
 
     return 0;
 }
+
+// related to circular linked list detection where the difference is that in a circular linked list, the last node points back to the first node, forming a closed loop.
+// In contrast, a linked list with a loop can have the loop starting at any node within the list, not necessarily the last node pointing to the first.
