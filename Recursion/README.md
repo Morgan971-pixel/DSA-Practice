@@ -40,3 +40,7 @@ Because of its exponential time complexity, the Towers of Hanoi is impractical a
 * Understanding stack memory.
 
 Enjoy the 3D Animation [here](https://towersofhanoi.info/Animate.aspx)!
+
+![WhatsApp Image 2026-01-31 at 20 27 59](https://github.com/user-attachments/assets/0c8a5478-d0a1-4e15-ac35-7742d8185017)
+
+
